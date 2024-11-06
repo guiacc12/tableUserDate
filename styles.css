@@ -78,3 +78,8 @@ button:hover {
     color: #a96a3f;
 }
 
+.copyright{
+    position: fixed;
+    bottom: 20px;
+    color: #f8f0e3;
+}
