@@ -35,7 +35,7 @@ function mostrarUsuarios(listaUsuarios) {
             <td>${user.nome}</td>
             <td>${user.email}</td>
             <td>${user.telefone}</td>
-            <td data-cadastro="${user['data-cadastro']}">${user['data-cadastro']}</td>
+            <td>${user['data-cadastro']}</td>
         </tr>`;
     }).join('');
     tabela.innerHTML = tableBody;
